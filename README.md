@@ -1,2 +1,1 @@
-# esg-gdl
-Embedded Systems Geeks Guadalajara - Collab Space
+# Embedded Systems Geeks Guadalajara - Collaboration Space
