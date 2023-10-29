@@ -1,0 +1,23 @@
+---------------------------------------
+Initialisation Sequence for 128x64 OLED
+---------------------------------------
+
+AE    - Set Display OFF
+D5 80 - Set Display Clock Divide Ratio / Oscillator Frequency
+A8 3F - Set Multiplex Ratio
+D3 00 - Set Display Offset
+40    - Set Display Start Line
+8D 14 - Charge Pump Setting (x)
+20 00 - Set Memory Addressing Mode
+A1    - Set Segment Re-map
+C8    - Set COM Output Scan Direction
+DA 12 - Set COM Pins Hardware Configuration
+81 CF - Set Contrast Control
+D9 F1 - Set Pre-charge Period
+DB 20 - Set V_COMH Deselect Level
+A4    - Entire Display ON
+A6    - Set Normal/Inverse Display
+2E    - Deactivate scroll
+AF    - Set Display ON
+
+(x) Only include this command if run at lower voltage (< 7.5 V).

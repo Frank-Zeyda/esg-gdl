@@ -1,0 +1,12 @@
+Resource analysis for the demo program:
+
+- 1280 bytes program memory (flash) for the glcdfont[] array
+-   26 bytes program memory (flash) for the OLED_INIT_CMDS[] array
+-  582 bytes program memory (flash) for actual program code
+-   32 bytes of static RAM (SRAM) for strings (demo)
+
+-> SRAM use for heap data is effectively zero.
+
+The Wire and TWI AVR components take away about 8% of program memory
+and 10% of SRAM. I am sure by reimplementing those libraries for our
+purposes, we can reduce the overhead in memory requirements if needed.
