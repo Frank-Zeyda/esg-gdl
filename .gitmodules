@@ -1,0 +1,3 @@
+[submodule "meetups/examples/rspgpio"]
+	path = meetups/examples/rspgpio
+	url = https://github.com/josuedhg/rspgpio.git
