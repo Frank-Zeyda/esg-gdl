@@ -1,3 +1,6 @@
 [submodule "meetups/examples/rspgpio"]
 	path = meetups/examples/rspgpio
 	url = https://github.com/josuedhg/rspgpio.git
+[submodule "meetups/examples/caesar-cipher"]
+	path = meetups/examples/caesar-cipher
+	url = https://github.com/josuedhg/caesar-cipher.git
